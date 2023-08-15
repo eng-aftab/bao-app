@@ -1,0 +1,204 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html{
+    font-size: 62.5%;
+}
+/* .container{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.background{
+    width: 360px;
+    height: 800px;
+    background: url(./assets/background.jpg);
+    background-position:center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+ 
+}
+.header{
+    width: 448px;
+    height: 448px;
+    background-color:#FEC340 ;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    position: absolute;
+    top: -160px;
+    left: -44px;
+    opacity: 0.7;
+}
+.title_home_f{
+    width: 38px;
+    height: 37px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 37.2px;
+    color: #000000;
+    position: absolute;
+    top:101px;
+    left: 119px;
+}
+.title_home_e{
+    width: 55px;
+    height: 37px;
+    font-size: 24px;
+    font-weight: 200;
+    line-height: 37.2px;
+    color: #00000080;
+    position: absolute;
+    top:123px;
+    left: 119px;
+}
+.icon_home{
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    top: 90px;
+    left: 174px;
+}
+.rectangle{
+    width: 81px;
+    height: 81px;
+    border-radius: 59px;
+    border: 2px solid #000000;
+    background-color:#FEC340 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle_search{
+    position: absolute;
+    top: 218px;
+    left: 35px;
+}
+.rectangle_login{
+    position: absolute;
+    top: 247px;
+    left: 139px;
+}
+.rectangle_cart{
+    position: absolute;
+    top: 218px;
+    left: 248px;
+}
+
+.menu_rectangle{
+    width: 400px;
+    height: 70px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu_title{
+    position: absolute;
+    left: 57px;
+}
+.menu_title_f{
+    font-size: 20px;
+    font-weight: 500px;
+    /* line-height: 31px; */
+    color: #000000;
+}
+.menu_title_e{
+    font-size: 20px;
+    font-weight: 200px;
+    /* line-height: 31px; */
+    color: #00000080;
+}
+.rectangle_treadmill{
+    position: absolute;
+    top: 358px;
+    left: -22px;
+    background-color: #FDB73A;
+    margin-top: 0;
+}
+.title_treadmill{
+    margin-top: 10px;
+}
+.icon_treadmill{
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    left: 272px;
+    margin-top: 10px;
+}
+
+.rectangle_cardio{
+    position: absolute;
+    top: 439px;
+    left: -22px;
+    background-color: #FBAB34;
+    margin-top: 0;
+}
+.title_cardio{
+    margin-top: 12px;
+}
+.icon_cardio{
+    width: 50px;
+    height: 49px;
+    position: absolute;
+    left: 271px;
+    margin-top: 9px;
+}
+
+.rectangle_elliptical{
+    position: absolute;
+    top: 520px;
+    left: -22px;
+    background-color: #F9A02E;
+    margin-top: 0;
+}
+.title_elliptical{
+    margin-top: 9px;
+}
+.icon_elliptical{
+    width: 40px;
+    height: 41px;
+    position: absolute;
+    left: 276px;
+    margin-top: 14px;
+}
+
+.rectangle_setting{
+    position: absolute;
+    top: 601px;
+    left: -22px;
+    background-color:#F68A23;
+    margin-top: 0;
+}
+.title_setting{
+    margin-top: 10px;
+}
+.icon_setting{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 276px;
+    margin-top: 15px;
+}
+
+.rectangle_headphone{
+    position: absolute;
+    top: 682px;
+    left: -22px;
+    background-color: #F57E20;
+    margin-top: 0;
+}
+.title_headphone{
+    margin-top: 12px;
+}
+.icon_headphone{
+    width: 50px;
+    height: 49px;
+    position: absolute;
+    left: 272px;
+    margin-top: 10px;
+}
